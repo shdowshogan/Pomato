@@ -1,0 +1,262 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Mukta;
+    height: 2000px;
+}
+
+.threelines-icon img{
+    /* display: flex; */
+    height: 50px;
+    margin-top: 50%;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.threelines-icon:hover{
+    transform: scale(1.02);
+}
+
+.header-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border: 0 solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.253);
+    width: 1000px;
+    background-color: white;
+
+}
+
+.header-container , .container{
+    width: 1000px;
+    display: flex;
+    margin:auto;
+    align-items: center;
+}
+
+.container{
+    flex-direction: column;
+}
+
+.header-container{
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    /* background-color: white; */
+
+}
+
+.first-subsec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headline-content{
+    margin-left: 50px;
+    /* line-height: 4em; */
+    display: flex;
+    flex-direction: column;
+}
+
+.headline-content span{
+    padding-bottom: 25px;
+}
+.short-content{
+    line-height: 2em;
+}
+
+
+.headline-content h1{
+    font-size: 60px;
+    margin-top: 0; 
+    margin-bottom: 20px;
+    line-height: 1.1em;
+}
+
+.fifty-percent-off{
+    background-color: #149F39;
+    width: 250px;
+    margin-bottom: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+
+}
+.explore-now-button{
+    width: 150px;
+    height: 50px;
+    background-color: #FFC066;
+    border: 1px solid #FFC066;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    transition: 0.15s ;
+}
+
+.explore-now-button:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+
+.second-subsec{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.perks{
+    display: flex;
+}
+
+.perk-name{
+    font-size: 20px;
+}
+
+.perks img{
+    margin-right: 30px;
+    height: 80px;
+}
+
+
+.hr-line{
+    border: none;
+    border-top: 1px solid gray;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.second-section{
+    margin-top: 40px;
+}
+
+.nd2-sec-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-menu{
+    background-color: #149F39;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    color: aliceblue;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.explore-our-menu{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dish-section{
+    margin-right: 23px;
+}
+
+.menu-dishes img{
+    margin-right: 8px;
+}
+.image1{
+    margin-bottom: 23px;
+}
+
+.image2{
+    margin-bottom: 23px;
+}
+
+.image3{
+    margin-bottom: 28px;
+}
+.image6{
+    width: 276px;
+}
+
+.image5{
+    margin-left: 23px;
+}
+.menu-dishes{
+    display: flex;
+    flex-direction: row;
+}
+
+.dish-subsec{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.dish-sub-subsec{
+    display: flex;
+    flex-direction: row;
+}
+
+.site-footer{
+    margin-top: 30px;
+    background-color: #FFC066;
+    width: 99vw;
+}
+
+.footer-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-sec{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.news-sec{
+    margin-bottom: 10px;
+}
+
+.social-media-icon{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 150px;
+}
+
+
+.email-input{
+    padding: 5px;
+    font-size: 15px;
+}
+.email-input:focus{
+    outline: none;
+
+}
